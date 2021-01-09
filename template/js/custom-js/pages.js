@@ -51,7 +51,14 @@ $('.menu__ .dropdown .btn-back button').click(function(){
 });
 
 if($('.product-card').length){
-    $('#alpix .product-card__name, #alpix .product_list_adjust').equalHeights();
+    
+        $('#alpix .product-card__name, #alpix .product_list_adjust').equalHeights();
+
+        if(window.innerWidth < 990){
+            $('.product-card__prices').equalHeights();
+        }
+    
+    
 }
 $('#alpix .header__search-input').keyup(function(){
     $('body .search__input').val($(this).val()).[0].dispatchEvent(new Event('input'));

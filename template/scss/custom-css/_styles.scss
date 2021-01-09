@@ -1000,11 +1000,16 @@ header .toggleMenu:after{
     padding:0;
     margin:0;
 }
-.page--categories .page-title{margin-bottom:0}
-.page--categories .retail-grid{margin-top:0}
-.page--categories .search-engine__nav{padding:0;background:Transparent;color:#000;margin:0 -15px 1rem -15px; font-size:14px}
-.page--categories .search-engine__nav button{font-size:14px;color:#000;background:Transparent}
-.page--categories .search-engine__aside .card-body{padding:1rem!important}
+.page--categories .page-title,
+.page--search .page-title{margin-bottom:0}
+.page--categories .retail-grid,
+.page--search .retail-grid{margin-top:0}
+.page--categories .search-engine__nav,
+.page--search .search-engine__nav{padding:0;background:Transparent;color:#000;margin:0 -15px 1rem -15px; font-size:14px}
+.page--categories.search-engine__nav button,
+.page--search.search-engine__nav button{font-size:14px;color:#000;background:Transparent}
+.page--categories .search-engine__aside .card-body,
+.page--search .search-engine__aside .card-body{padding:1rem!important}
 #alpix  .search-engine__aside .search-engine__filter button[data-toggle="collapse"] i{display:none!important}
 // #alpix  .search-engine__aside .card-header{display:none!important}
 // #alpix  .search-engine__aside{
@@ -1355,10 +1360,47 @@ header .toggleMenu:after{
 
 @media(min-width:990px){
     #page-brands .product-item,
-    #page-categories .product-item{margin-bottom:3em}
+    .page--categories .product-item,
+    .page--search .product-item{margin-bottom:3em}
 }
 
 .cart-item__data .cart-item__name > a{color:#666;font-size:16px;}
 .cart-item__thumb{width:50px;}
 
 .search-engine__filter .collapse{display:block!important}
+
+.page--search .search-engine__results{margin:0 -15px}
+
+.page--search .search-engine__info{padding-left:0;padding-right:0}
+
+.page--search h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #000;
+    text-align: left;
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 1rem;
+}
+
+@media(max-width:990px){
+    #alpix .page-title__head h1,
+.page--search h1{font-size:1.4rem}
+.product-item{padding:0}
+#alpix .product-card .product-card__buy.fade .btn{padding:0 10px}
+.page--categories .product-item,
+    .page--search .product-item{margin-bottom:1em}
+    .product-card__offer-stamp{
+        font-size: 10px;
+        padding: 0;
+        min-width: 40px;
+        top: 50px;
+    }
+
+    .product_list_adjust{display:none}
+    
+}
+
+.product-card__name{overflow:visible}
+#alpix .product-card__name{display:block}
