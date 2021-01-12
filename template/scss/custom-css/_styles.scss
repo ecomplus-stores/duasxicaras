@@ -1001,14 +1001,19 @@ header .toggleMenu:after{
     margin:0;
 }
 .page--categories .page-title,
+.page--brands .page-title,
 .page--search .page-title{margin-bottom:0}
 .page--categories .retail-grid,
+.page--brands .retail-grid,
 .page--search .retail-grid{margin-top:0}
 .page--categories .search-engine__nav,
+.page--brands .search-engine__nav,
 .page--search .search-engine__nav{padding:0;background:Transparent;color:#000;margin:0 -15px 1rem -15px; font-size:14px}
 .page--categories.search-engine__nav button,
+.page--brands.search-engine__nav button,
 .page--search.search-engine__nav button{font-size:14px;color:#000;background:Transparent}
 .page--categories .search-engine__aside .card-body,
+.page--brands .search-engine__aside .card-body,
 .page--search .search-engine__aside .card-body{padding:1rem!important}
 #alpix  .search-engine__aside .search-engine__filter button[data-toggle="collapse"] i{display:none!important}
 // #alpix  .search-engine__aside .card-header{display:none!important}
