@@ -199,6 +199,12 @@
     border-color: #6ccf7a;
     color:#fff;
 }
+#alpix .offers-timer picture > img{
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+}
 #alpix .product-card__buy .fas{display:none!important}
 #alpix .product-card__link_direct{
     font-size: 11px;
@@ -1409,3 +1415,11 @@ header .toggleMenu:after{
 
 .product-card__name{overflow:visible}
 #alpix .product-card__name{display:block}
+
+[data-cms-collection="posts"] article p{text-align:justify}
+[data-cms-collection="posts"] h3{
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #000;
+    margin: 1.5rem 0 1rem 0;
+}
