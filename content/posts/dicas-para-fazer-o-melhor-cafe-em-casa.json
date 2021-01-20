@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "date": "2020-10-29T20:46:18.699Z",
+=======
+>>>>>>> 88910ff3e5b14d1adbbe3f74c8479cd162c6fb8b
   "sections": [
     {
       "type": "page-title",
@@ -11,23 +14,45 @@
     },
     {
       "type": "custom-content",
-      "markdown": "## Cafés e métodos de extração\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n\nDonec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.\n\nMorbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."
+      "markdown": "## Cafés e métodos de extração\n\nNão há nada melhor que tomar um bom café! Seja expresso, coado, por infusão, percolação ou pressão, o cafezinho faz parte da história e da cultura gastronômica do Brasil. Durante muito anos, foi o principal responsável pela economia nacional e sua expansão em nosso país data de mais de três séculos. Hoje somos o maior produtor mundial de café, tanto do tipo commodity (cafés mais baratos e de menor qualidade) quanto de cafés especiais (e de melhor qualidade).\n\nJá há alguns anos, uma nova onda de consumo de cafés, a terceira onda, na verdade, trouxe uma visão diferente à tradicional bebida: mais que quantidade e preço, era preciso olhar para a qualidade e valor. O café gourmet ou especial, sob todos os aspectos, vale muito mais que o café convencional. Embora haja espaço para todos os gostos, um método especial não melhora um café ruim, mas pode revelar nuances ocultas de um café de melhor qualidade.\n\nNeste artigo, iremos apresentar os métodos para consumo de cafés mais utilizados nas grandes cafeterias de todo o mundo, com alguns truques que apenas baristas sabem, tudo para que você possa fazer em casa um ótimo café!\n\nComeçaremos apresentando os métodos, depois falaremos sobre os tipos e escolha dos grãos. Não deixe de conferir nosso artigo sobre acessórios importantes para auxiliar no processo de extração de cafés especiais.\n\n### Hario V60\n\n![Hario V60 coador com filtro e jarra](/img/uploads/kit-v60-craft-hario-menor.png)\n\nNosso primeiro método é o mais semelhante ao tradicional cafezinho brasileiro coado, o mais comum em nosso país. O **Hario V60** é um **método para coar café** através de um suporte (coador) cujas paredes formam um ângulo de **60 graus** com a base, medida que originou seu nome: o V alude ao formato do coador e o 60 à curvatura de sua parede. Além disso, o suporte possui linhas espiraladas que têm por função conduzir a água de maneira mais rápida, diminuindo o tempo de extração e a consequente adição de elementos indesejados à bebida, comum em infusões prolongadas de **cafés coados**. Seu orifício de saída, na base, é mais largo que os coadores convencionais de supermercado, o que também contribui para uma extração mais ágil e que transmite à bebida apenas o melhor dos **grãos**."
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+<<<<<<< HEAD
+      "start": "2020-10-29T20:47:40.415Z",
+      "end": "2020-10-29T20:47:40.431Z",
+      "offers": [
+        "5fe258e869274c73fcebdf78"
+      ],
+      "notes": "A Clever é um método inteligente de se fazer café! Com controle total do tempo de extração, fica muito mais fácil atingir o ponto desejado para cada tipo de grão e suas características!"
+=======
+      "start": "2021-01-20T01:34:04.019Z",
+      "end": "2021-01-20T01:34:04.042Z",
+      "offers": [
+        "6007867869274c73fcf8c3ee"
+      ],
+      "notes": "O Kit V60 é o \"tudo em um\" da linha Hario V60. Composto de Jarra, suporte (coador), filtros e scoop, entrega todo o necessário para começar a coar um delicioso café assim que se abre sua caixa!"
+>>>>>>> 88910ff3e5b14d1adbbe3f74c8479cd162c6fb8b
+    },
+    {
+      "type": "custom-content",
+      "markdown": "## **Clever**\n\nA **Clever**, mais que um método, é uma forma \"inteligente\" de se fazer café! O nome Clever pode ser traduzido para o português como \"esperto\", \"inteligente\", \"sagaz\". E a **Clever** é tudo isso!\n\nEntre os **métodos coados**, o grande desafio é fazer com que a água permaneça tempo o suficiente em contato com o **pó de café** para que extraia todos os componentes dos **grãos**, mas não tempo demais para que leve à bebida características ruins, como amargor e adstringência. Com a **Clever**, é possível controlar o tempo de infusão através de seu patenteado **sistema Shut-Off**, que consiste em uma válvula de silicone que se encaixa em um anel do mesmo material sempre que o suporte não esteja sobre uma **jarra**, **caneca**, **xícara** ou qualquer outro recipiente."
+    },
+    {
+<<<<<<< HEAD
+=======
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2020-10-29T20:47:40.415Z",
       "end": "2020-10-29T20:47:40.431Z",
       "offers": [
-        "5f9b895fb2161709fa468fd9"
+        "5fe258e869274c73fcebdf78"
       ],
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget dui ut lacus porta pharetra. Donec faucibus nisl turpis, molestie dapibus urna efficitur eget. "
+      "notes": "A Clever é um método inteligente de se fazer café! Com controle total do tempo de extração, fica muito mais fácil atingir o ponto desejado para cada tipo de grão e suas características!"
     },
     {
-      "type": "custom-content",
-      "markdown": "Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.\n\nPhasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi."
-    },
-    {
+>>>>>>> 88910ff3e5b14d1adbbe3f74c8479cd162c6fb8b
       "type": "responsive-banner",
       "img": "/img/uploads/banner.png"
     },
@@ -40,7 +65,14 @@
     }
   ],
   "title": "Cafés e métodos de extração",
+<<<<<<< HEAD
   "thumbnail": "/img/uploads/img2.png",
-  "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.\n\nDonec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.\n\n",
+  "description": "Não há nada melhor que tomar um bom café! Seja expresso, coado, por infusão ou pressão, o cafezinho faz parte da história e da cultura gastronômica do Brasil. Durante muito anos, foi o principal responsável pela economia nacional e sua expansão em nosso país data de mais de três séculos. Hoje somos o maior produtor mundial de café, tanto do tipo commodity (cafés mais baratos e de menor qualidade) quanto de cafés especiais (e de maior qualidade).\n\nJá há alguns anos, uma nova onda de consumo de cafés, a terceira onda, na verdade, trouxe uma nova visão à tradicional bebida: mais que quantidade e preço, era preciso olhar para a qualidade e valor. O café gourmet ou especial, sob todos os aspectos, vale muito mais que o café convencional. Embora haja espaço para todos os gostos, um método especial não melhora um café ruim, mas pode revelar nuances ocultas de um café de maior qualidade.\n\nNeste artigo, iremos apresentar os métodos para consumo de café mais utilizados nas grandes cafeterias de todo o mundo, com alguns truques que apenas baristas sabem, tudo para que você possa fazer em casa um ótimo café!\n\nFalaremos também sobre os tipos e escolha dos grãos. Não deixe de conferir nosso artigo sobre acessórios importantes para auxiliar no processo de extração de cafés especiais.",
   "meta_title": "Cafés e Métodos de Extração"
+=======
+  "thumbnail": "/img/uploads/banner_postinterno.png",
+  "description": "Não há nada melhor que tomar um bom café! Seja expresso, coado, por infusão, percolação ou pressão, o cafezinho faz parte da história e da cultura gastronômica do Brasil. Durante muito anos, foi o principal responsável pela economia nacional e sua expansão em nosso país data de mais de três séculos. Hoje somos o maior produtor mundial de café, tanto do tipo commodity (cafés mais baratos e de menor qualidade) quanto de cafés especiais (e de melhor qualidade).",
+  "meta_title": "Cafés e Métodos de Extração",
+  "date": "2021-01-20T00:49:11.622Z"
+>>>>>>> 88910ff3e5b14d1adbbe3f74c8479cd162c6fb8b
 }

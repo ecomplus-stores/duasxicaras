@@ -7,15 +7,21 @@
       "banners": [
         {
           "img": "/img/uploads/01.png",
-          "mobile_img": "/img/uploads/01mobile.png"
+          "mobile_img": "/img/uploads/01mobile.png",
+          "link": "https://duasxicaras.netlify.app/cafeteiras-e-metodos",
+          "alt": "Métodos para extração de café"
         },
         {
           "img": "/img/uploads/02.png",
-          "mobile_img": "/img/uploads/02mobile.png"
+          "mobile_img": "/img/uploads/02mobile.png",
+          "link": "https://duasxicaras.netlify.app/hario",
+          "alt": "Linha Hario V60"
         },
         {
           "img": "/img/uploads/banner03_v2.png",
-          "mobile_img": "/img/uploads/03mobile.png"
+          "mobile_img": "/img/uploads/03mobile.png",
+          "link": "https://duasxicaras.netlify.app/capsulas",
+          "alt": "Cápsulas para Cafés e outras bebidas"
         }
       ]
     },
@@ -96,13 +102,19 @@
       "banners": [
         {
           "img": "/img/uploads/mb_1.png",
-          "mobile_img": "/img/uploads/mb_mobile.png"
+          "mobile_img": "/img/uploads/mb_mobile.png",
+          "link": "https://duasxicaras.netlify.app/kits-e-presentes",
+          "alt": "Kits e Presentes para quem ama café!"
         },
         {
-          "img": "/img/uploads/02_new.png"
+          "img": "/img/uploads/02_new.png",
+          "link": "https://duasxicaras.netlify.app/xaropes-soda-italiana",
+          "alt": "Xaropes para soda italiana"
         },
         {
-          "img": "/img/uploads/03_new.png"
+          "img": "/img/uploads/03_new.png",
+          "link": "https://duasxicaras.netlify.app/cha",
+          "alt": "Chás e ervas para infusão"
         }
       ]
     },
