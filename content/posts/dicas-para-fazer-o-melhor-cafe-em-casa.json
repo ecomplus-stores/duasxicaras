@@ -15,6 +15,16 @@
     {
       "type": "offers-timer",
       "max_hours": 24,
+      "start": "2021-01-20T01:34:04.019Z",
+      "end": "2021-01-20T01:34:04.042Z",
+      "offers": [
+        "6007867869274c73fcf8c3ee"
+      ],
+      "notes": "O Kit V60 é o \"tudo em um\" da linha Hario V60. Composto de Jarra, suporte (coador), filtros e scoop, entrega todo o necessário para começar a coar um delicioso café assim que se abre sua caixa!"
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
       "start": "2020-10-29T20:47:40.415Z",
       "end": "2020-10-29T20:47:40.431Z",
       "offers": [
