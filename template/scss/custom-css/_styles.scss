@@ -199,12 +199,6 @@
     border-color: #6ccf7a;
     color:#fff;
 }
-#alpix .offers-timer picture > img{
-    max-width: 100%;
-    max-height: 300px;
-    margin: 0 auto;
-    display: block;
-}
 #alpix .product-card__buy .fas{display:none!important}
 #alpix .product-card__link_direct{
     font-size: 11px;
@@ -335,14 +329,14 @@
 #alpix .specification__ico.metodo{
     height: 24px;
     width: 24px;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
     border-radius: 50%;
     margin-top: -2px;
-    background-position: center center;
-    background-size: 25px auto;
 }
 #alpix .page--products .variations__grid-title,
 #alpix .page--products .kit__title,
@@ -1006,21 +1000,11 @@ header .toggleMenu:after{
     padding:0;
     margin:0;
 }
-.page--categories .page-title,
-.page--brands .page-title,
-.page--search .page-title{margin-bottom:0}
-.page--categories .retail-grid,
-.page--brands .retail-grid,
-.page--search .retail-grid{margin-top:0}
-.page--categories .search-engine__nav,
-.page--brands .search-engine__nav,
-.page--search .search-engine__nav{padding:0;background:Transparent;color:#000;margin:0 -15px 1rem -15px; font-size:14px}
-.page--categories.search-engine__nav button,
-.page--brands.search-engine__nav button,
-.page--search.search-engine__nav button{font-size:14px;color:#000;background:Transparent}
-.page--categories .search-engine__aside .card-body,
-.page--brands .search-engine__aside .card-body,
-.page--search .search-engine__aside .card-body{padding:1rem!important}
+.page--categories .page-title{margin-bottom:0}
+.page--categories .retail-grid{margin-top:0}
+.page--categories .search-engine__nav{padding:0;background:Transparent;color:#000;margin:0 -15px 1rem -15px; font-size:14px}
+.page--categories .search-engine__nav button{font-size:14px;color:#000;background:Transparent}
+.page--categories .search-engine__aside .card-body{padding:1rem!important}
 #alpix  .search-engine__aside .search-engine__filter button[data-toggle="collapse"] i{display:none!important}
 // #alpix  .search-engine__aside .card-header{display:none!important}
 // #alpix  .search-engine__aside{
@@ -1367,7 +1351,6 @@ header .toggleMenu:after{
 #instafeed .instagram_gallery a:nth-child(n+7){display:none;}
 #instafeed .instagram_gallery a:hover{opacity:.6}
 #instafeed .instagram_gallery a img{max-width:100%;}
-<<<<<<< HEAD
 //mgnr edit
 .shipping-calculator__services .list-group {
   .active {
@@ -1389,61 +1372,3 @@ header .toggleMenu:after{
 .checkout__btn-offers {
   color: #000;
 }
-=======
-
-
-@media(min-width:990px){
-    #page-brands .product-item,
-    .page--categories .product-item,
-    .page--search .product-item{margin-bottom:3em}
-}
-
-.cart-item__data .cart-item__name > a{color:#666;font-size:16px;}
-.cart-item__thumb{width:50px;}
-
-.search-engine__filter .collapse{display:block!important}
-
-.page--search .search-engine__results{margin:0 -15px}
-
-.page--search .search-engine__info{padding-left:0;padding-right:0}
-
-.page--search h1{
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: #000;
-    text-align: left;
-    display: block;
-    border-bottom: 1px solid #f2f2f2;
-    padding-bottom: 1rem;
-}
-
-@media(max-width:990px){
-    #alpix .page-title__head h1,
-.page--search h1{font-size:1.4rem}
-.product-item{padding:0}
-#alpix .product-card .product-card__buy.fade .btn{padding:0 10px}
-.page--categories .product-item,
-    .page--search .product-item{margin-bottom:1em}
-    .product-card__offer-stamp{
-        font-size: 10px;
-        padding: 0;
-        min-width: 40px;
-        top: 50px;
-    }
-
-    .product_list_adjust{display:none}
-    
-}
-
-.product-card__name{overflow:visible}
-#alpix .product-card__name{display:block}
-
-[data-cms-collection="posts"] article p{text-align:justify}
-[data-cms-collection="posts"] h3{
-    font-size: 1.1em;
-    font-weight: 800;
-    color: #000;
-    margin: 1.5rem 0 1rem 0;
-}
->>>>>>> 88910ff3e5b14d1adbbe3f74c8479cd162c6fb8b
