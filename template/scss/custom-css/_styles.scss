@@ -1405,3 +1405,7 @@ header .toggleMenu:after{
 .checkout__btn-offers {
   color: #000;
 }
+.account__nav .nav-link:not(.active), .orders-list__number {
+    color: #623117 !important
+}
+
