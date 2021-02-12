@@ -1411,3 +1411,9 @@ header .toggleMenu:after{
 #page-404 a, #product-description a {
   color: #613117
 }
+@media(max-width: 767px) {
+.product-card__name {
+    --max-lines: 4;
+    height: calc(var(--line-height-sm)*var(--font-size-sm)*var(--max-lines)) !important;
+}
+}
