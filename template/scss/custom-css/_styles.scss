@@ -1420,3 +1420,8 @@ header .toggleMenu:after{
 .search-engine__retail .product-item {
   margin-bottom: 2.3rem
 }
+@media(max-width: 468px) {
+  .product-item .product-card__buy.fade button {
+  padding: 0 .8rem !important;
+}
+}
