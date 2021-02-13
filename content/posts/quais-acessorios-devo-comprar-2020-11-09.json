@@ -4,6 +4,11 @@
   "description": "A dúvida mais comum entre os amantes de café, seja aqueles que pretendem passar um simples e delicioso cafezinho em casa ou os que pretendem se aventurar na extração de café através de métodos especiais é em quais itens e acessórios é importante investir. Com tantas opções no mercado, das mais variadas marcas, fica difícil escolher o que comprar e em qual momento. \n\n",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/quais-acessorios-para-cafe-devo-comprar.jpg",
+      "alt": "acessorios-de-cafe"
+    },
+    {
       "type": "page-title",
       "title": "Quais acessórios | devo comprar?"
     },
@@ -24,12 +29,6 @@
     {
       "type": "custom-content",
       "markdown": "## Suporte (Coador) de Café\n\nO **coador de café** é mais um conhecido por todos. Ainda assim, você sabia que ele não é tão antigo por aqui quanto muitos pensam? Pois é, o coador de plástico em que colocamos **filtros de papel** foi inventado em 1908 por uma dona de casa alemã, chamada **Melitta Bentz**. Isso, mesmo, ela quem deu o nome ao tradicional marca **Melitta**, que chegou ao Brasil seis décadas depois, em 1968. Até a entrada da Melitta no país, os brasileiros passavam seu cafezinho diário no tradicional filtro de tecido, amparado por uma estrutura de metal, conhecida como mancebo ou mariquinha, que foi o método mais comum por 200 anos!\n\nDentre os métodos especiais de extração de café, o **Hario V60** é o mais próximo ao tradicional sistema Melitta. No entanto, ao olharmos mais de perto, as diferenças aparecem. O suporte possui um ângulo de **60 graus** entre suas paredes, que formam um **\"V\"**, de onde se origina seu nome. Por dentro, possui **linhas espiralada**s que conduzem a água por toda a área do **coador**, evitando represamento. Na base, seu orifício é bem maior que a do método Melitta, o que proporciona uma extração mais rápida e adequada do café.\n\nSeus **filtros** são exclusivos e se acomodam perfeitamente no **suporte**. São feitos de papel bem fino e muito poroso, para facilitar o trânsito da água, proporcionando uma bebida muito **doce** e com bom nível de **acidez**. São produzidos a partir de matérias virgens e sem o uso de nenhum tipo de substância química prejudicial. Para o branqueamento, a **Hario** utiliza oxigênio, um método natural e atóxico."
-    },
-    {
-      "type": "offers-timer",
-      "max_hours": 24,
-      "start": "2021-02-05T00:43:51.114Z",
-      "end": "2021-02-05T00:43:51.134Z"
     },
     {
       "type": "collection-shelf",
