@@ -36,7 +36,8 @@
       "limit": 1,
       "page": 1,
       "headless": true,
-      "sort": "news"
+      "sort": null,
+      "collection_id": "5f407ad8f023684cdbdbf93c:categories:Acessórios:/acessorios"
     }
   ],
   "thumbnail": "/img/uploads/img.png",
