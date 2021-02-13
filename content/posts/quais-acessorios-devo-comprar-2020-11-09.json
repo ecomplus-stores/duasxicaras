@@ -37,6 +37,10 @@
       "end": "2021-02-13T14:59:42.452Z"
     },
     {
+      "type": "custom-content",
+      "markdown": "## Balança para Café"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 1,
