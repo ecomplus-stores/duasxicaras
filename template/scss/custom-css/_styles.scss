@@ -1420,6 +1420,32 @@ header .toggleMenu:after{
 .checkout__btn-offers {
   color: #000;
 }
+.account__nav .nav-link:not(.active), .orders-list__number {
+    color: #623117 !important
+}
+#page-404 a, #product-description a, .cart a, body[data-cms-collection="posts"] #content a {
+  color: #613117
+}
+
+.product-card__name {
+    @media(min-width: 767px) {
+        --max-lines: 3;
+        height: calc(var(--line-height-sm)*var(--font-size-sm)*var(--max-lines)) !important;
+    }
+    @media(max-width: 767px) {
+        --max-lines: 4;
+        height: calc(var(--line-height-sm)*var(--font-size-sm)*var(--max-lines)) !important;
+    }
+}
+.search-engine__retail .product-item {
+  margin-bottom: 2.3rem
+}
+@media(max-width: 468px) {
+  .product-item .product-card__buy.fade button {
+  padding: 0 .8rem !important;
+}
+}
+
 
 @media (max-width:990px){
     #alpix .product-card .product_list_adjust{display:none;}
