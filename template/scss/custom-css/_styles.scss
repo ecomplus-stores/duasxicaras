@@ -161,6 +161,7 @@
     text-align: center;
     color: #000;
     font-weight: 500;
+    height:auto;
 }
 #alpix .product-card__prices{text-align:center;min-height:25px}
 #alpix .product-card__prices .prices__compare{
@@ -212,9 +213,13 @@
     padding-bottom: 3px;
     text-decoration: none!important;
 }
-#alpix .product-card .prices__installments,
+// #alpix .product-card .prices__installments,
 #alpix .product-card .prices__discount{display:none;}
 #alpix .product-card:hover{box-shadow:0px 0px 0px;}
+#alpix .product-card .prices__installments{font-size:12px;line-height: 18px;}
+#alpix .product-card .prices__installments:after{
+    content:"s/ juros";
+}
 
 #alpix .products-carousel__title{margin-top:2rem;}
 #alpix .products-carousel__title span,
@@ -1092,6 +1097,14 @@ header .toggleMenu:after{
     margin: 0 auto;
     display: block;
 }
+#alpix .page--products .product__prices .prices__discount:after{
+    content: "via boleto ou PIX";
+    font-weight: normal;
+    font-size: 14px;
+}
+#alpix .page--products .product__prices .prices__discount small{display:none}
+
+
 @media(min-width:100px) and (max-width:768px){
     #alpix .page--home>.sections>.banners-grid:first-child>.container{
         width:100%;
@@ -1119,7 +1132,7 @@ header .toggleMenu:after{
     }
     #alpix .offers-timer a, #alpix .product-card .product-card__buy.fade .btn{
         max-width:100%;
-        padding:0 1.5rem;
+        padding:0 15px;
     }
     #alpix .products-carousel__title{padding-left:0;padding-right:0;}
 
@@ -1367,6 +1380,8 @@ header .toggleMenu:after{
     #lgpd .row{display:flex;align-items:center;}
     #lgpd button{}
 
+    #alpix .search-engine__retail .product-item{margin-bottom:60px;}
+
 }
 
 .cover-payment{
@@ -1404,4 +1419,15 @@ header .toggleMenu:after{
 
 .checkout__btn-offers {
   color: #000;
+}
+
+@media (max-width:990px){
+    #alpix .product-card .product_list_adjust{display:none;}
+    #alpix .search-engine__retail .product-item{margin-bottom:30px;padding:0;}
+    #alpix .product-card__prices .prices__compare{
+        margin: 0;
+        display: block;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
