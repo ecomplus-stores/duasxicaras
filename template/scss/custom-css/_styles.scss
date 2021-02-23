@@ -1380,7 +1380,7 @@ header .toggleMenu:after{
     #lgpd .row{display:flex;align-items:center;}
     #lgpd button{}
 
-    #alpix .search-engine__retail .product-item{margin-bottom:60px;}
+    #alpix .search-engine__retail .product-item{margin-bottom:90px;}
 
 }
 
@@ -1456,4 +1456,10 @@ header .toggleMenu:after{
         font-size: 12px;
         line-height: 18px;
     }
+
+    #content  .search-engine__retail > .row > .col-6{width:100%;max-width:100%;flex:0 0 100%;}
+    #content  .search-engine__retail > .row > .col-6 .product-item{margin-bottom:30px;}
+    #alpix .product-card__name{height:auto!important;}
+    #alpix .product-card__name{margin-top:15px;}
+    #alpix .product-card__prices .prices__value{line-height: 1.8em;}
 }
