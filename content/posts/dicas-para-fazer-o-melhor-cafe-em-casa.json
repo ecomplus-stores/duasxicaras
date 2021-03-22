@@ -5,6 +5,9 @@
       "title": "Cafés e | métodos de extração"
     },
     {
+      "type": "share-buttons"
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/banner_postinterno.png"
     },
