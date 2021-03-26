@@ -125,9 +125,7 @@ if (window.storefront.context.body._id && window.storefront.context.resource ===
         allItems.forEach((item, i) => {
           const textName = item.innerText
           if (textName.startsWith('Cápsulas de Café Espresso Blend')) {
-            const arrayOfName = textName.split(' ')
-            const lengthName = arrayOfName.length
-            const newName = arrayOfName[lengthName - 1]
+            const newName = textName.replace('Cápsulas de Café Espresso Blend', '')
             item.innerHTML = newName
           }
         });
