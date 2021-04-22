@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.65dbb83bce739e582bb1ed97c7a88824.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.59a4fb4308a094362c9d75c629ba721f.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.bf0c7046163205ff65f8d03119d1c0df.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.7592e4bea5f1b4615d0c7c43ff8e2b8b.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.ec82d4af7b9b64c68b5c9adbf6933948.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Duas Xícaras",
+  "short_name": "Duas Xícaras",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A Duas Xícaras é uma loja criada por dois jovens com experiência em comércio eletrônico e que tiveram a ideia de oferecer uma proposta diferente para a compra de produtos relacionados ao mundo do café: um layout leve e descontraído, produtos de altíssima qualidade para todos os bolsos, com entrega ágil, garantia e atendimento pré e pós-venda primorosos.",
+  "background_color": "#ffffff",
+  "theme_color": "#fde9ce"
+}
