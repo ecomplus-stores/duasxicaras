@@ -1467,3 +1467,13 @@ header .toggleMenu:after{
     #alpix .product-card__prices .prices__value{line-height: 1.8em;}
     #alpix .category-description.expand .html-clearfix{max-height:none;}
 }
+#login-email, #storefront-app input, #storefront-app button {
+    border-color: #784226 !important;
+}
+.custom-control-input:checked~.custom-control-label:before {
+    border-color: #784226 !important;
+    background-color: #784226 !important;
+}
+#account-form-privacy-policy + label a {
+    color: #784226 !important;
+}
