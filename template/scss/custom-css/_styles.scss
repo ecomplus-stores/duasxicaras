@@ -1477,3 +1477,11 @@ header .toggleMenu:after{
 #account-form-privacy-policy + label a, .category-description a {
     color: #784226 !important;
 }
+.category-description {
+    h2 {
+        font-size: 1.5rem !important
+    }
+    h3 {
+        font-size: 1rem !important
+    }
+}
