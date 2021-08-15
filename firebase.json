@@ -1,6 +1,21 @@
 {
   "hosting": {
     "redirects": [
+      {
+        "source": "/kit-10-caixas-de-capsulas-de-cafe-compativeis-com-nespresso",
+        "destination": "/kit-10-caixas-de-capsulas-bebidas-compativeis-com-nespresso",
+        "type": 301
+      },
+      {
+        "source": "/p-cpsulas-de-creme-brle-cremoso-compatvel-com-nespresso",
+        "destination": "/capsulas-de-creme-brule-cremoso-compativel-com-nespresso",
+        "type": 301
+      },
+      {
+        "source": "/moido",
+        "destination": "/cafe-moido-em-po",
+        "type": 301
+      }
     ],
     "public": "dist",
     "ignore": [
