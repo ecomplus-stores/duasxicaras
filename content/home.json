@@ -8,19 +8,19 @@
         {
           "img": "/img/uploads/01.png",
           "mobile_img": "/img/uploads/01mobile.png",
-          "link": "https://duasxicaras.netlify.app/cafeteiras-e-metodos",
+          "link": "https://www.duasxicaras.com.br/cafeteiras-e-metodos",
           "alt": "Métodos para extração de café"
         },
         {
           "img": "/img/uploads/02.png",
           "mobile_img": "/img/uploads/02mobile.png",
-          "link": "https://duasxicaras.netlify.app/hario",
+          "link": "https://www.duasxicaras.com.br/hario",
           "alt": "Linha Hario V60"
         },
         {
           "img": "/img/uploads/banner03_v2.png",
           "mobile_img": "/img/uploads/03mobile.png",
-          "link": "https://duasxicaras.netlify.app/capsulas",
+          "link": "https://www.duasxicaras.com.br/capsulas",
           "alt": "Cápsulas para Cafés e outras bebidas"
         }
       ]
