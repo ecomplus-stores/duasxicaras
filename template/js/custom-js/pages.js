@@ -61,7 +61,7 @@ if($('.product-card').length){
 
 }
 $('#alpix .header__search-input').keyup(function(){
-    $('body .search__input').val($(this).val()).[0].dispatchEvent(new Event('input'));
+    $('body .search__input').val($(this).val())[0].dispatchEvent(new Event('input'));
 });
 
 $('body').click(function(e){
