@@ -1,10 +1,10 @@
 {
   "pkg": "@ecomplus/widget-analytics",
-  "active": true,
+  "active": false,
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
-    "gaTrackingId": "GTM-57XJCHN"
+    "gaTrackingId": ""
   },
   "headAppend": "src/append/head"
 }
