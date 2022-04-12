@@ -1,6 +1,6 @@
 {
   "marketing_stripe": {
-    "text": "Todo site até 6X s/ juros | 5% OFF em boleto ou Pix",
+    "text": "Todo site até 6X s/ juros | 5% OFF em Boleto ou Pix",
     "link": "",
     "background": "#c68164",
     "color": "#fde9ce"
@@ -37,5 +37,6 @@
     "random": 6,
     "full_width": true
   },
-  "search_input": true
+  "search_input": true,
+  "desktop_megamenu": true
 }
