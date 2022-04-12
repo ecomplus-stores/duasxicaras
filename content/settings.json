@@ -11,6 +11,7 @@
     "custom": "_"
   },
   "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/duasxicaras",
   "logo": "/img/uploads/logo.png",
   "name": "Duas Xícaras",
   "short_name": "Duas Xícaras",
@@ -21,8 +22,9 @@
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
+  "font_family": "_",
   "favicon": "/img/uploads/favicon-duas-xicaras.png",
-  "repository": "ecomplus-stores/duasxicaras",
+  "icons_font": "line-awesome",
   "country_code": "BR",
   "secondary_color": "#784226",
   "icon": "/img/uploads/favicon-duas-xicaras.png",
