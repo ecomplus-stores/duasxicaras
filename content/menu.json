@@ -3,5 +3,6 @@
     "capsulas-compativeis-nespresso"
   ],
   "phone_wpp": true,
-  "socials": true
+  "socials": true,
+  "alphabetical_order": true
 }
