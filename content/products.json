@@ -6,7 +6,10 @@
     },
     {
       "type": "product-block",
-      "enabled": true
+      "enabled": true,
+      "size_guide": {
+        "image": "/img/uploads/02.webp"
+      }
     },
     {
       "type": "product-description",
