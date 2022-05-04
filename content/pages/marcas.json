@@ -4,7 +4,9 @@
     {
       "type": "brands-carousel",
       "limit": 24,
-      "offset": 0
+      "offset": 0,
+      "autoplay": 1000,
+      "sort": "name"
     }
   ],
   "body": "Marcas"
