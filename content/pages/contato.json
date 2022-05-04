@@ -2,5 +2,11 @@
   "title": "Contato",
   "meta_title": "Contato do Site | Duas Xicaras",
   "meta_description": "Contato",
-  "body": "A Duas Xícaras disponibiliza a todos os seus Clientes os seguintes canais de atendimento:\n\n\\- **WhatsApp:** através do nosso número comercial (16) 99318-0345 (Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h).\n\n\\- **E-mail:** [](mailto:faleconosco@kabum.com.br)[atendimento@duasxicaras.com.br](atendimento@duasxicaras.com.br)\n\n\\- **Central de Atendimento telefônico:** (16) 99318-0345 (Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h).\n\n\\- **CHAT:** Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h)."
+  "body": "A Duas Xícaras disponibiliza a todos os seus Clientes os seguintes canais de atendimento:\n\n\\- **WhatsApp:** através do nosso número comercial (16) 99318-0345 (Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h).\n\n\\- **E-mail:** [](mailto:faleconosco@kabum.com.br)[atendimento@duasxicaras.com.br](atendimento@duasxicaras.com.br)\n\n\\- **Central de Atendimento telefônico:** (16) 99318-0345 (Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h).\n\n\\- **CHAT:** Segunda à Sexta-feira, exceto feriados, das 9h às 17h e aos Sábados das 9h às 12h).",
+  "sections": [
+    {
+      "type": "extra-page",
+      "enabled": true
+    }
+  ]
 }
