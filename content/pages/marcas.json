@@ -1,0 +1,11 @@
+{
+  "title": "Marcas",
+  "sections": [
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0
+    }
+  ],
+  "body": "Marcas"
+}
