@@ -61,10 +61,6 @@
       "title": "Novidades | Quentinhas"
     },
     {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
