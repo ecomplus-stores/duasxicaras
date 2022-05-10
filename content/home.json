@@ -33,7 +33,7 @@
     },
     {
       "type": "breadcrumbs",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "collection-shelf",
