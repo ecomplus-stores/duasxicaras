@@ -26,6 +26,12 @@
       ]
     },
     {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": "name"
+    },
+    {
       "type": "breadcrumbs",
       "enabled": true
     },
@@ -41,12 +47,6 @@
     {
       "type": "custom-html",
       "html": "<h4 class=\"products-carousel__title\">\n<span>Dicas para fazer  <b>O melhor café em casa</b></span>\n</h4>"
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 24,
-      "offset": 0,
-      "sort": "name"
     },
     {
       "type": "blog",
