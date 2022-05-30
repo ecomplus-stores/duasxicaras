@@ -32,6 +32,13 @@
       "sort": "name"
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2022-05-30T20:29:58.123Z",
+      "end": "2022-05-30T20:29:58.184Z",
+      "notes": "Opções"
+    },
+    {
       "type": "breadcrumbs",
       "enabled": false
     },
