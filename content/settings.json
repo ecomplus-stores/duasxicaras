@@ -14,7 +14,7 @@
   "repository": "ecomplus-stores/duasxicaras",
   "logo": "/img/uploads/logo.png",
   "name": "Duas Xícaras",
-  "short_name": "Duas Xícaras",
+  "short_name": "Duas Xícaras: adquira cafés, cafeteiras, moedores e mais!",
   "shipping": {
     "text": "Aproveite o frete grátis em produtos selecionados!",
     "show": true
@@ -33,6 +33,6 @@
     "text": "Parcele suas compras em até 4X sem juros no cartão!",
     "show": true
   },
-  "description": "A Duas Xícaras é uma loja criada por dois jovens com experiência em comércio eletrônico e que tiveram a ideia de oferecer uma proposta diferente para a compra de produtos relacionados ao mundo do café: um layout leve e descontraído, produtos de altíssima qualidade para todos os bolsos, com entrega ágil, garantia e atendimento pré e pós-venda primorosos.",
+  "description": "Adquira tudo que você precisa para uma experiência de degustação única sem sair de casa, desde cafeteiras até suprimentos. Venha para a Duas Xícaras!",
   "large_icon": "/img/uploads/favicon-duas-xicaras.png"
 }
