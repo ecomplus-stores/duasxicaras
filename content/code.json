@@ -1,5 +1,5 @@
 {
-  "css": ".card-img, .card-img-bottom, .card-img-top {\n    width: 600px;\n    height: 300px;\n}\n\n.cover-payment {\n    width: 50px;\n    height: 35px;\n}\n\na#seloEbit {\n    width: 70px;\n    height: 95px;\n}\n\nimg.img-fluid {\n    height: 55px;\n    width: 200px;\n}",
+  "css": ".card-img, .card-img-bottom, .card-img-top {\n  height: auto;\n  width: 100%;\n}\n\n.cover-payment {\n    width: 50px;\n    height: 35px;\n}\n\na#seloEbit {\n    width: 70px;\n    height: 95px;\n}\n\nimg.img-fluid {\n    height: 55px;\n    width: 200px;\n}",
   "html_head": "",
   "html_body": ""
 }
