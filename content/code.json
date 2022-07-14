@@ -1,5 +1,5 @@
 {
-  "css": ".card-img, .card-img-bottom, .card-img-top {\nwidth: 100%;\nheight: auto;\n}",
+  "css": ".card-img, .card-img-bottom, .card-img-top {\nwidth: 600;\nheight: 300;\n}",
   "html_head": "",
   "html_body": ""
 }
