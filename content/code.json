@@ -1,5 +1,5 @@
 {
-  "css": "#alpix .header__logo {\n    height: 93px;\n    width: 150px;\n}\n.card-img, .card-img-bottom, .card-img-top {\n    width: 600px;\n    height: 300px;\n}\n\nimg.cover-payment {\n    width: 50px;\n    height: 35px;\n}\n\na#seloEbit {\n    width: 70px;\n    height: 95px;\n}\n\nimg.img-fluid {\n    height: 55px;\n    width: 200px;\n}",
+  "css": "#alpix .header__logo {\n    height: 93px;\n    width: 150px;\n}\n.card-img, .card-img-bottom, .card-img-top {\n    width: 600px;\n    height: 300px;\n}\n\nspan.cover-payment\n    width: 50px;\n    height: 35px;\n}\n\na#seloEbit {\n    width: 70px;\n    height: 95px;\n}\n\nimg.img-fluid {\n    height: 55px;\n    width: 200px;\n}",
   "html_head": "",
   "html_body": ""
 }
