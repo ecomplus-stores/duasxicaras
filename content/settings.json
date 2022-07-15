@@ -5,7 +5,7 @@
   },
   "domain": "www.duasxicaras.com.br",
   "currency_symbol": "R$",
-  "primary_color": "#784226",
+  "primary_color": "",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
@@ -26,7 +26,7 @@
   "favicon": "/img/uploads/favicon-duas-xicaras.png",
   "icons_font": "line-awesome",
   "country_code": "BR",
-  "secondary_color": "#000000",
+  "secondary_color": "#784226",
   "icon": "/img/uploads/favicon-duas-xicaras.png",
   "store_id": 1137,
   "installments": {
