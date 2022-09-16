@@ -117,7 +117,7 @@ $(document).ready(function() {
 })
 
 //edit name from kits
-if (window.storefront.context.body._id && window.storefront.context.resource === 'products') {
+if (window.storefront && window.storefront.context && window.storefront.context.body && window.storefront.context.body._id && window.storefront.context.resource === 'products') {
   storefront.on('widget:@ecomplus/widget-minicart', function () {
     setTimeout(function () {
       const allItems = document.querySelectorAll('.quantity-selector__label a')
