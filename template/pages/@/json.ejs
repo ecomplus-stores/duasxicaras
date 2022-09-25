@@ -1,5 +1,6 @@
 <%
 const { resource, body, collection, slug } = await _.resolveRoute()
+const { path } = _.route
 let echoContext = {}
 if (body) {
   // store resource
@@ -66,12 +67,14 @@ if (Array.isArray(_.widgets)) {
   `window._data=${JSON.stringify(echoData)};`
 %>/*-->*/</script>
 
-<script type="application/ld+json"><%-
-  JSON.stringify({
-    '@context': 'http://schema.org',
-    '@type': 'Organization',
-    name: _.settings.name || _.store.name,
-    url: _.store.homepage || `https://${(_.store.domain || _.settings.domain)}/`,
-    logo: (_.store.logo && _.store.logo.url) || `https://${_.settings.domain}${_.settings.logo}`
-  })
-%></script>
+<% if (path === '/' || path === '/index') { %> 
+  <script type="application/ld+json"><%-
+    JSON.stringify({
+      '@context': 'http://schema.org',
+      '@type': 'Organization',
+      name: _.settings.name || _.store.name,
+      url: _.store.homepage || `https://${(_.store.domain || _.settings.domain)}/`,
+      logo: (_.store.logo && _.store.logo.url) || `https://${_.settings.domain}${_.settings.logo}`
+    })
+  %></script>
+<% } %>
