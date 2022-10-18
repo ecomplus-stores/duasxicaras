@@ -80,7 +80,12 @@ if (opt.img) {
           <% }) %>
           
             
-            <img src="<%= opt.img.replace('.png', '.webp') %>" alt="<%= opt.alt %>">
+            <img src="<%= opt.img.replace('.png', '.webp') %>" alt="<%= opt.alt %>"
+            <% if (width) { %>
+              width="<%= width %>"
+              height="<%= height %>"
+            <% } %>
+            >
           
         
       </picture>
