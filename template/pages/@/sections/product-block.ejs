@@ -188,7 +188,7 @@ const productJsonLd = {
     itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,
     priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end
       ? _.state.price_effective_date.end.slice(0, 10)
-      : new Date().toISOString(),
+      : new Date().toISOString().slice(0, 10),
     seller: {
       '@type': 'Organization',
       name: _.settings.name || _.store.name
