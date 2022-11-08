@@ -42,7 +42,7 @@
     "mastercard": true,
     "citibank": false,
     "title": "Formas de Pagamento",
-    "mais": true,
+    "mais": false,
     "itau": true
   },
   "credits": ""
