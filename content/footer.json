@@ -21,16 +21,14 @@
     "email": true,
     "address": true
   },
-  "stamps_title":"Certificados",
+  "stamps_title": "Certificados",
   "stamps": [
-    
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
     }
   ],
   "payment_methods": {
-    "title":"Formas de Pagamento",
     "bb": true,
     "visa": true,
     "boleto": true,
@@ -43,7 +41,8 @@
     "santander": false,
     "mastercard": true,
     "citibank": false,
-    "mais": false,
+    "title": "Formas de Pagamento",
+    "mais": true,
     "itau": true
   },
   "credits": ""
