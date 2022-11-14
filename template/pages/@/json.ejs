@@ -77,4 +77,32 @@ if (Array.isArray(_.widgets)) {
       logo: (_.store.logo && _.store.logo.url) || `https://${_.settings.domain}${_.settings.logo}`
     })
   %></script>
+<% } else if (collection === 'posts') { %>
+  <script type="application/ld+json"><%-
+    JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": _.store.homepage || `https://${(_.store.domain || _.settings.domain)}/`
+      },
+      "headline": _.state.title,
+      "description": _.state.description,
+      "image": `https://www.duasxicaras.com.br/${_.state.thumbnail}`,
+      "author": {
+        "@type": "Person",
+        "name": "duasxicaras",
+        "url": "www.duasxicaras.com.br"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Duas Xicaras",
+        "logo": {
+          "@type": "ImageObject",
+          "url": (_.store.logo && _.store.logo.url) || `https://${_.settings.domain}${_.settings.logo}`
+        }
+      },
+      "datePublished": (_.state.date || new Date().toISOString()).substring(0, 10)
+    })
+  %></script>
 <% } %>
