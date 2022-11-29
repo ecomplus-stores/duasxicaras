@@ -43,6 +43,7 @@
     "citibank": false,
     "title": "Formas de Pagamento",
     "mais": false,
+    "pix": true,
     "itau": true
   },
   "credits": ""
