@@ -5,7 +5,7 @@
   "enableCheckout": true,
   "disablePages": true,
   "options": {
-    "badgePosition": "BOTTOM_RIGHT",
+    "badgePosition": "INLINE",
     "dialogPosition": "BOTTOM_RIGHT_DIALOG",
     "gmcMerchantId": 122322005
   },
