@@ -6,20 +6,20 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/2x-black-friday_site_2-2.webp",
-          "mobile_img": "/img/uploads/2x-black-friday_site_2_mobile-2.webp",
+          "img": "/img/uploads/banner1_ok.jpg",
+          "mobile_img": "/img/uploads/banner1_ok.jpg",
           "link": "https://www.duasxicaras.com.br/hario",
           "alt": "Linha Hario V60"
         },
         {
-          "img": "/img/uploads/2x-black-friday_site_3-1-.webp",
-          "mobile_img": "/img/uploads/2x-black-friday_site_mobile_03.webp",
+          "img": "/img/uploads/banner1-2_ok.jpg",
+          "mobile_img": "/img/uploads/banner1-2_ok.jpg",
           "link": "https://www.duasxicaras.com.br/presentes",
           "alt": "Kits e Presentes para Quem Ama Café"
         },
         {
-          "img": "/img/uploads/2x-black-friday_site_banner_grande_home-1.webp",
-          "mobile_img": "/img/uploads/2x-black-friday_site_mobile.webp",
+          "img": "/img/uploads/banner32.jpg",
+          "mobile_img": "/img/uploads/banner32.jpg",
           "link": "https://www.duasxicaras.com.br/ofertas",
           "alt": "Cápsulas para Cafés e outras bebidas"
         }
@@ -59,6 +59,35 @@
       "page": 1,
       "sort": "news",
       "title": "Novidades | Quentinhas"
+    },
+    
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mb_1.png",
+          "mobile_img": "/img/uploads/mb_mobile.png",
+          "link": "https://www.duasxicaras.com.br/kits-e-presentes",
+          "alt": "Kits e Presentes para quem ama café!"
+        },
+        {
+          "img": "/img/uploads/02_new.png",
+          "link": "https://www.duasxicaras.com.br/xaropes-soda-italiana",
+          "alt": "Xaropes para soda italiana"
+        },
+        {
+          "img": "/img/uploads/03_new.png",
+          "link": "https://www.duasxicaras.com.br/cha",
+          "alt": "Chás e ervas para infusão"
+        }
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "title": "Promoções | imperdíveis"
     },
     {
       "type": "banners-grid",
@@ -100,34 +129,7 @@
         }
       ]
     },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "title": "Promoções | imperdíveis"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/mb_1.png",
-          "mobile_img": "/img/uploads/mb_mobile.png",
-          "link": "https://www.duasxicaras.com.br/kits-e-presentes",
-          "alt": "Kits e Presentes para quem ama café!"
-        },
-        {
-          "img": "/img/uploads/02_new.png",
-          "link": "https://www.duasxicaras.com.br/xaropes-soda-italiana",
-          "alt": "Xaropes para soda italiana"
-        },
-        {
-          "img": "/img/uploads/03_new.png",
-          "link": "https://www.duasxicaras.com.br/cha",
-          "alt": "Chás e ervas para infusão"
-        }
-      ]
-    },
+    
     {
       "type": "custom-html",
       "html": "<div class=\"newsletter\">\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <h4 class=\"products-carousel__title\">\n        <span>Assine nossa <b>Newsletter</b></span>\n        </h4>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-12 col-md-4 d-none d-md-block\">\n      <img class=\"lozad\" data-src=\"/img/newsletter_cup.png\">\n    </div>\n    <div class=\"col-12 col-md-3\">\n      <p>Assine nossa newsletter e fique por dentro de todas as novidades e promoções</p>\n    </div>\n    <div class=\"col-12 col-md-5\">\n      <!-- Begin Mailchimp Signup Form -->      \n      <form action=\"https://duasxicaras.us7.list-manage.com/subscribe/post?u=1584b8f40a25793d74873f091&amp;id=8fa5dd8b66\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mce-responses\" class=\"clear\">\n          <div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n          <div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n        </div>   \n        <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_1584b8f40a25793d74873f091_8fa5dd8b66\" tabindex=\"-1\" value=\"\"></div>\n        <div class=\"row\">\n          <div class=\"col\">\n            <input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" placeholder=\"Digite seu e-mail aqui\">\n          </div>\n          <div class=\"col-auto\">\n            <button type=\"submit\" class=\"btn btn-default\" name=\"subscribe\" id=\"mc-embedded-subscribe\">Cadastrar</button>\n          </div>\n        </div>\n      </form>\n      <!--End mc_embed_signup-->\n    </div>\n  </div>\n</div>\n"

@@ -18,12 +18,16 @@ const networksWithColors = [
   
 %>
 
+<script>
+  
+</script>
+
 <% if ( _.pageName.includes('home')){ %>
 <div class="container-fluid" >  
   <h4 class="products-carousel__title">
     <span>Siga no  <b>Instagram</b></span>
   </h4>
-  <div id="instafeed" class="mt-3" style="margin-left:-1rem;margin-right:-1rem;">
+  <div id="instafeed" class="apx_instafeed row mt-3" style="margin-left:-1rem;margin-right:-1rem;">
 
   </div>
 </div>
@@ -289,4 +293,36 @@ const networksWithColors = [
 </script>
 
 
-<script src="/assets/instafeed.min.js"></script>
+<!-- <script src="/assets/instafeed.min.js"></script> -->
+<script>
+function loadInstagram(){
+  console.log(InstagramToken);
+  fetch('https://graph.instagram.com/me/media?access_token='+ InstagramToken +'&fields=media_url,media_type,caption,permalink')
+  .then(function (response) {
+      return response.json();
+  }).then(function (arr){
+      var images = "";
+      //console.log(arr.json());
+      for (var i = 0; i < 12; i++) {
+          if(arr.data[i].media_type == "IMAGE"){
+              images = images + "<div class='col-6 pb-md-0 col-md-2 px-0'><a href='"+ arr.data[i].permalink +"'>" +
+                  "<img src='"+ arr.data[i].media_url +"'/>" + 
+                  "<span>"+ arr.data[i].caption.substring(0,75) +"...</span>" +
+              "</a></div>";
+          }
+          if(arr.data[i].media_type == "CAROUSEL_ALBUM"){
+              images = images + "<div class='col-6 pb-md-0 col-md-2 px-0'><a href='"+ arr.data[i].permalink +"'>" +
+                  "<img src='"+ arr.data[i].media_url +"'/>" + 
+                  "<span>"+ arr.data[i].caption.substring(0,75) +"...</span>" +
+              "</a></div>";
+          }
+      }
+      let feed = document.querySelector('#instafeed');
+      feed.innerHTML = feed.innerHTML + images;
+
+  }).catch((err) => {
+      console.log(err);
+  });
+}
+</script>
+<script src="https://ig.instant-tokens.com/users/b2ae8781-bac2-4194-b176-124cbc43e9d6/instagram/17841405581975166/token.js?userSecret=143rifamvcne0qnt1qt60rz" onload="loadInstagram()"></script>

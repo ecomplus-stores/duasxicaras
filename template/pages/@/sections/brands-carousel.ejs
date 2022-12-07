@@ -67,14 +67,26 @@ if (brands && brands.length) {
               data-glide-dir="<"
               aria-label="<%= _.dictionary('previous') %>"
             >
-              <i class="i-arrow-left"></i>
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="18.5px" height="35.5px">
+           <path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+            d="M16.088,34.499 L0.500,17.500 L16.088,0.499 "/>
+           </svg>
             </button>
             <button
               class="btn glide__arrow glide__arrow--right"
               data-glide-dir=">"
               aria-label="<%= _.dictionary('next') %>"
             >
-              <i class="i-arrow-right"></i>
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="18.5px" height="35.5px">
+           <path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+            d="M2.211,0.499 L17.500,17.498 L2.211,34.498 "/>
+           </svg>
             </button>
           </div>
         <% } %>

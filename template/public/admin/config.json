@@ -4,5 +4,47 @@
     "branch": "master",
     "identity_url": "https://gotrue.ecomplus.biz/1137/.netlify/identity",
     "gateway_url": "https://gitgateway.ecomplus.biz/1137/.netlify/git"
-  }
+  },
+  "collections": [
+    {
+      "label" : "[alpix.dev]",
+      "name": "alpix",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "teste_ab",
+          "label": "Teste A/B",
+          "file": "content/apx_test_ab.json",
+          "editor": {
+            "preview": false
+          },
+          "fields": [
+            {
+              "label": "Cor da Fonte",
+              "name": "text_color",
+              "widget": "color"          
+            },
+            {
+              "label": "Cor da Borda",
+              "name": "border_color",
+              "widget": "color"          
+            },
+            {
+              "label": "Cor do Fundo",
+              "name": "bg_color",
+              "widget": "color"          
+            },
+            {
+              "label": "Parametro adicional na URL",
+              "name": "parameter",
+              "hint": "Exemplo: '?version=new' ou '?version=2'",
+              "widget": "string"
+            }          
+          ]
+        }
+      ]
+    }
+  ]
 }
