@@ -1,4 +1,9 @@
 // Add your custom CSS here.
+:root{
+    --ab_text_color:#ffffff;
+    --ab_bg_color:#6ccf7a;
+    --ab_border_color:#6ccf7a;
+}
 @keyframes shake {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
@@ -199,9 +204,9 @@
 }
 #alpix .product-card .product-card__buy.fade .btn,
 #alpix .offers-timer a{
-    background: #6ccf7a;
-    border-color: #6ccf7a;
-    color:#fff;
+    background: var(--ab_bg_color);
+    border-color: var(--ab_border_color);
+    color:var(--ab_text_color);
 }
 #alpix .product-card__buy .fas{display:none!important}
 #alpix .product-card__link_direct{
@@ -346,9 +351,10 @@
 #alpix .page--products .product__buy button.btn,
 #alpix .page--products .quantity-selector__buy button.btn{
     height: 48px;
-    // background: #78d100;
-    background:#6ccf7a;
-    color: #fff;
+    background: #6ccf7a;
+    // background: var(--ab_bg_color);
+    // border-color: var(--ab_border_color);
+    // color:var(--ab_text_color);
     font-size: 14px;
     font-weight: 800;
     text-transform: uppercase;

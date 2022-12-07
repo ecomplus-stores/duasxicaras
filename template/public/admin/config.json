@@ -39,9 +39,14 @@
             {
               "label": "Parametro adicional na URL",
               "name": "parameter",
-              "hint": "Exemplo: '?version=new' ou '?version=2'",
+              "hint": "Exemplo: 'new' ou 'v2'",
               "widget": "string"
-            }          
+            }   
+            {
+              "label": "Ativo?",
+              "name": "active",
+              "widget": "boolean"
+            }       
           ]
         }
       ]

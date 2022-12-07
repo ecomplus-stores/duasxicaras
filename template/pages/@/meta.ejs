@@ -1,4 +1,56 @@
 <%
+const test_ab = _.cms('apx_test_ab') || {}
+
+if(test_ab.active == true){
+  %>
+  <script>
+    const ab_test = {
+      text_color: '<%= test_ab.text_color %>',
+      border_color: '<%= test_ab.border_color %>',
+      bg_color: '<%= test_ab.bg_color %>',
+      parameter: '<%= test_ab.parameter %>',
+    };
+    //console.log(ab_test);
+
+    if(sessionStorage.getItem('ab_version') == undefined){
+      let r_min = Math.ceil(1);
+      let r_max = Math.floor(2);
+      let r_rand = Math.floor(Math.random() * (r_max - r_min + 1) + r_min);
+      console.log();
+      if(r_rand == 2){
+        sessionStorage.setItem('ab_version',true);
+      }else{
+        sessionStorage.setItem('ab_version',false);
+      }
+      if(sessionStorage.getItem('ab_version') == "true"){
+        const url = new URL(window.location);
+        url.searchParams.set('v', ab_test.parameter);
+        window.history.pushState({}, '', url);        
+        document.addEventListener('DOMContentLoaded', function () {
+          document.documentElement.style.setProperty('--ab_text_color',ab_test.text_color);
+          document.documentElement.style.setProperty('--ab_border_color',ab_test.border_color);
+          document.documentElement.style.setProperty('--ab_bg_color',ab_test.bg_color);
+        }, false);
+        
+      }
+    }else{
+      if(sessionStorage.getItem('ab_version') == "true"){
+        const url = new URL(window.location);
+        url.searchParams.set('v', ab_test.parameter);
+        window.history.pushState({}, '', url);
+        document.addEventListener('DOMContentLoaded', function () {
+          document.documentElement.style.setProperty('--ab_text_color',ab_test.text_color);
+          document.documentElement.style.setProperty('--ab_border_color',ab_test.border_color);
+          document.documentElement.style.setProperty('--ab_bg_color',ab_test.bg_color);
+        }, false);
+      }
+    }
+  </script>
+  <%
+}
+%>
+
+<%
 // setup page object for current route
 const { path, resource, collection } = _.route
 let pathname
