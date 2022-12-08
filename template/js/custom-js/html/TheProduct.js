@@ -582,7 +582,7 @@ export default {
             setTimeout(() => {
               const createObserver = function () {
                 setStickyBuyObserver(!isToVisible)
-                //document.removeEventListener('scroll', createObserver)
+                document.removeEventListener('scroll', createObserver)
               }
               document.addEventListener('scroll', createObserver)
             }, 100)
