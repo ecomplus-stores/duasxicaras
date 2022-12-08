@@ -59,7 +59,7 @@
     display: block;
     margin: 0 auto;
 }
-#alpix .header{background:#fff;padding-bottom:0;}
+#alpix .header{background:#fff;padding-bottom:0;position:sticky;top:-1px;}
 #alpix .header .btn-functions{
     margin-left:1rem;
 }
@@ -327,6 +327,7 @@
     font-weight: bold;
     line-height: 2rem;
     margin-bottom: 1rem;
+    color:#602f16;
 }
 #alpix .page--products .prices__compare{display:inline-block!important}
 
@@ -547,7 +548,7 @@
     font-size: 0.8571428571428571em;
     font-weight: 500;
 }
-#alpix .page--products .product__prices .prices__installments{margin-bottom:5px;}
+#alpix .page--products .product__prices .prices__installments{margin-bottom:10px;}
 #alpix .page--products .product__prices .prices__installments,
 #alpix .page--products .product__prices .prices__discount{
     color: #6d6e71;
@@ -1333,7 +1334,14 @@ header .toggleMenu:after{
         display: flex;
         justify-content: center;
     }
-    #alpix .page--products .product__name{font-size:1em}
+    #alpix .page--products .product__name{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #alpix .page--products .product__resume,
+    #alpix .page--products .product__prices,
+    .product__detail__info{justify-content: center;text-align: center;}
+
 
 }
 
@@ -1672,6 +1680,7 @@ right: auto;
   .product__buy .apx_quantity_selector + span{width:100%}
   .product__buy .apx_quantity_selector + span  .btn-primary{white-space:nowrap;padding-left:0;padding-right:0;white-space:nowrap;width:100%}
   .product__buy .apx_quantity_selector input{width:130px;}
+  #alpix .page--products .product__buy button.btn{width:100%;}
 }
 
 .product__sticky{
@@ -1723,4 +1732,17 @@ right: auto;
 @media(max-width:990px){
     
     .apx_instafeed{margin-bottom:0;}
+}
+#alpix .page--products .product__prices .prices__discount span{font-weight:bold;}
+#alpix .page--products .product__prices .prices__discount span{
+    color:#28a745
+}
+
+@media(max-width:990px){
+    .brands-carousel{
+        width:80%
+    }
+    .brands-carousel .glide__arrows--outer .glide__arrow--left{left:-3rem}
+    .brands-carousel .glide__arrows--outer .glide__arrow--right{right:-3rem}
+    .newsletter{overflow: hidden;}
 }

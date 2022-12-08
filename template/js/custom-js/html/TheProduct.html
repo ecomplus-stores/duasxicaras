@@ -201,7 +201,7 @@
               </slot>
             </div>
             <template v-else>
-              <div class="product__buy">
+              <div class="product__buy" ref="buy">
                 <div class="apx_quantity_selector">
                   <button type="button"
                   @click="ev => changeQntUn(body, -1,ev)"
@@ -303,7 +303,7 @@
               </p>
             </template>-->
 
-            <slot name="sale-timer">
+            <!-- <slot name="sale-timer">
               <div
                 v-if="isOnSale"
                 class="product__sale-timer mb-3"
@@ -319,7 +319,7 @@
                   00:00:00
                 </div>
               </div>
-            </slot>
+            </slot> -->
 
             <!--<slot name="favorite">
               <div>

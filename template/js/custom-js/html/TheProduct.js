@@ -559,6 +559,7 @@ export default {
         if (!$anchor) {
           return
         }
+        console.log($anchor)
         const $tmpDiv = document.createElement('div')
         $anchor.parentNode.insertBefore($tmpDiv, $anchor)
         if (isToVisible) {
@@ -591,34 +592,34 @@ export default {
       }
       setStickyBuyObserver()
     }
-    if (this.isOnSale) {
-      const promotionDate = new Date(this.mockNewPromoDate.price_effective_date.end)
-      const now = Date.now()
-      if (promotionDate.getTime() > now) {
-        let targetDate
-        const dayMs = 24 * 60 * 60 * 1000
-        const daysBetween = Math.floor((promotionDate.getTime() - now) / dayMs)
-        if (daysBetween > 2) {
-          targetDate = new Date()
-          targetDate.setHours(23, 59, 59, 999)
-        } else {
-          targetDate = promotionDate
-        }
-        const formatTime = (number) => number < 10 ? `0${number}` : number
-        const getRemainingTime = () => {
-          const distance = targetDate.getTime() - Date.now()
-          const days = Math.floor(distance / dayMs)
-          const hours = Math.floor((distance % dayMs) / (1000 * 60 * 60))
-          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
-          const seconds = Math.floor((distance % (1000 * 60)) / 1000)
-          return (days > 0 ? `${formatTime(days)}:` : '') +
-            `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`
-        }
-        this.currentTimer = setInterval(() => {
-          this.$refs.timer.innerHTML = getRemainingTime()
-        }, 1000)
-      }
-    }
+    // if (this.isOnSale) {
+    //   const promotionDate = new Date(this.mockNewPromoDate.price_effective_date.end)
+    //   const now = Date.now()
+    //   if (promotionDate.getTime() > now) {
+    //     let targetDate
+    //     const dayMs = 24 * 60 * 60 * 1000
+    //     const daysBetween = Math.floor((promotionDate.getTime() - now) / dayMs)
+    //     if (daysBetween > 2) {
+    //       targetDate = new Date()
+    //       targetDate.setHours(23, 59, 59, 999)
+    //     } else {
+    //       targetDate = promotionDate
+    //     }
+    //     const formatTime = (number) => number < 10 ? `0${number}` : number
+    //     const getRemainingTime = () => {
+    //       const distance = targetDate.getTime() - Date.now()
+    //       const days = Math.floor(distance / dayMs)
+    //       const hours = Math.floor((distance % dayMs) / (1000 * 60 * 60))
+    //       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+    //       const seconds = Math.floor((distance % (1000 * 60)) / 1000)
+    //       return (days > 0 ? `${formatTime(days)}:` : '') +
+    //         `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`
+    //     }
+    //     this.currentTimer = setInterval(() => {
+    //       this.$refs.timer.innerHTML = getRemainingTime()
+    //     }, 1000)
+    //   }
+    // }
   },
 
   destroyed () {
