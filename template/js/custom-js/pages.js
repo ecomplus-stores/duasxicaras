@@ -61,7 +61,7 @@ if($('.product-card').length){
 
 }
 $('#alpix .header__search-input').keyup(function(){
-    $('body .search__input').val($(this).val())[0].dispatchEvent(new Event('input'));
+ $('body .search__input').val($(this).val())[0].dispatchEvent(new Event('input'));
 });
 
 $('body').click(function(e){
@@ -91,30 +91,6 @@ function getHTML(oObj){
     return $('<div></div>').append($(oObj)).html();
 }
 
-var instagram_username = '2xicaras';
-var instagram_quantity = 6;
-var instagram_size = 2;
-
-
-
-$(document).ready(function() {
-    // var obj = new InstagramFeed({
-    //     'username': '2xicaras',
-    //     'container': document.getElementById("instafeed"),
-    //     'display_profile': false,
-    //     'display_biography': false,
-    //     'display_gallery': true,
-    //     'display_captions': false,
-    //     'display_igtv': false,
-    //     'get_raw_json': false,
-    //     'lazy_load':false,
-    //     'callback': null,
-    //     'styling': false,
-    //     'items': 8,
-    //     'items_per_row': 8,
-    //     'margin': 1
-    // });
-})
 
 //edit name from kits
 if (window.storefront && window.storefront.context && window.storefront.context.body && window.storefront.context.body._id && window.storefront.context.resource === 'products') {
