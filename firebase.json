@@ -2,6 +2,16 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/posts/dicas-para-fazer-o-melhor-cafe-em-casa",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/posts/quais-acessorios-devo-comprar-2020-11-09",
+        "destination": "/index",
+        "type": 301
+      },
+      {
         "source": "/kit-10-caixas-de-capsulas-de-cafe-compativeis-com-nespresso",
         "destination": "/kit-10-caixas-de-capsulas-bebidas-compativeis-com-nespresso",
         "type": 301
