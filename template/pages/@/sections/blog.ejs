@@ -1,47 +1,66 @@
-<%
-var posts = _.cms('posts')
-if (_.pageName.includes('posts/') || _.pageName.includes('home') ) {
-  posts = _.cms('posts').reverse().splice(0,2)
-}
-%>
-
-<% if (Array.isArray(posts) && posts.length) {
-  %>
-    <div class="blog my-4 my-lg-5 ">
-      <div class="container">
-        <div class="row">
-          <% posts.forEach(slug => { %>
-            <% const { title, thumbnail, description } = _.cms(`posts/${slug}`) %>
-            <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
-              <div class="card">
-                <% if (thumbnail) { %>
-                  <a href="/posts/<%= slug %>">
-                    <img
-                      src="<%= thumbnail.replace('.png','.webp') %>"
-                      class="card-img-top"
-                      alt="<%= title %>"
-                    >
-                  </a>
-                <% } %>
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="/posts/<%= slug %>">
-                      <%= title %>
-                    </a>
-                  </h5>
-                  <p class="card-text">
-                    <%= description.substring(0,500) %>...
-                  </p>
-                  <a href="/posts/<%= slug %>" class="product-card__link_direct">
-                    Continuar Lendo
-                  </a>
+<div class="blog my-4 my-lg-5 ">
+  <div class="container">
+    <div class="row">
+      <script>
+        fetch('https://blog.duasxicaras.com.br/wp-json/wp/v2/posts')
+        .then(response => response.json())
+        .then(response => {
+          document.querySelector('.blog .row').insertAdjacentHTML('afterbegin',
+          `<div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
+           <div class="card">
+            <a href="${response[0].link}">
+                <img
+                  src="${response[0].yoast_head_json.og_image[0].url}"
+                  class="card-img-top"
+                  alt="${response[0].title.rendered}"
+                >
+              </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="${response[0].link}">
+                  ${response[0].title.rendered}
+                </a>
+              </h5>
+              <p class="card-text">
+                <div class="html-clearfix">
+                ${response[0].content.rendered.substring(0,100)}...
                 </div>
-              </div>
+              </p>
+              <a href="${response[0].link}" class="product-card__link_direct">
+                Continuar Lendo
+              </a>
             </div>
-          <% }) %>
+          </div>
         </div>
-      </div>
+        <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0">
+           <div class="card">
+            <a href="${response[1].link}">
+                <img
+                  src="${response[1].yoast_head_json.og_image[0].url}"
+                  class="card-img-top"
+                  alt="${response[1].title.rendered}"
+                >
+              </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="${response[1].link}">
+                  ${response[1].title.rendered}
+                </a>
+              </h5>
+              <p class="card-text">
+                <div class="html-clearfix">
+                ${response[1].content.rendered.substring(0,100)}...
+                </div>
+              </p>
+              <a href="${response[1].link}" class="product-card__link_direct">
+                Continuar Lendo
+              </a>
+            </div>
+          </div>
+        </div>`)
+          })
+        .catch(err => console.error(err));
+      </script>
     </div>
-  <%
-}
-%>
+  </div>
+</div>
