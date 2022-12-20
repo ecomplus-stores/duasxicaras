@@ -4,9 +4,54 @@
     "text": ""
   },
   "links_1": {
-    "list_pages": true,
+    "list_pages": false,
     "title": "Páginas",
-    "list": []
+    "list": [
+      {
+        "text": "BLOG",
+        "url": "blog.duasxicaras.com.br"
+      },
+      {
+        "url": "https://www.duasxicaras.com.br/pages/contato",
+        "text": "CONTATO"
+      },
+      {
+        "text": "CONDIÇÕES DE ENTREGA",
+        "url": "https://www.duasxicaras.com.br/pages/entrega"
+      },
+      {
+        "url": "https://www.duasxicaras.com.br/pages/faq",
+        "text": "DÚVIDAS FREQUENTES"
+      },
+      {
+        "text": "GARANTIA",
+        "url": "https://www.duasxicaras.com.br/pages/garantia"
+      },
+      {
+        "text": "MARCAS",
+        "url": "https://www.duasxicaras.com.br/pages/marcas"
+      },
+      {
+        "text": "FORMAS DE PAGAMENTO",
+        "url": "https://www.duasxicaras.com.br/pages/pagamentos"
+      },
+      {
+        "text": "POLÍTICAS DE PRIVACIDADE",
+        "url": "https://www.duasxicaras.com.br/pages/privacidade"
+      },
+      {
+        "text": "SOBRE NÓS",
+        "url": "https://www.duasxicaras.com.br/pages/sobre-nos"
+      },
+      {
+        "url": "https://www.duasxicaras.com.br/pages/termos",
+        "text": "TERMOS DE SERVIÇO"
+      },
+      {
+        "text": "TROCAS E DEVOLUÇÕES",
+        "url": "https://www.duasxicaras.com.br/pages/trocas"
+      }
+    ]
   },
   "links_2": {
     "list_categories": true,
