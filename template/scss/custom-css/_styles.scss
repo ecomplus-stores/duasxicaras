@@ -1548,7 +1548,9 @@ header .toggleMenu:after{
     padding: 0.5rem;
     margin: 0;
     line-height: initial;
-    opacity:1!important
+    opacity:1!important;
+
+    display:none!important;
 }
 .hero-banner.brand-banner img{
     height: unset;
@@ -1559,6 +1561,12 @@ header .toggleMenu:after{
 
 
 //QUANTITY LIST
+#alpix .recommended-items .product-card__buy .btn-primary div{
+    padding: 0 5px;
+    font-size: 11px;
+}
+.btn-success{color:#fff!important}
+#alpix .recommended-items .product-card__buy,
 .product-card .product-card__buy{
 opacity: 1!important;
 position: relative;
@@ -1573,7 +1581,7 @@ display: flex;
 align-items: center;
 gap: 15px;
 }
-
+#alpix .recommended-items .product-card__buy{gap:7px}
 .qtde-adicionar-carrinho{
 margin: 0;
 display: flex;
@@ -1631,16 +1639,16 @@ line-height: 36px;
 .product-card .product-card__buy > *{width:100%!important;justify-content: space-between;}
 }
 
-.recommended-items .product-card__buy{
-display:flex!important;
-position:relative!important;
-flex-direction: column!important;
-transform: unset;
-width: auto;
-left: auto;
-right: auto;
-}
-.recommended-items .product-card__buy .btn-primary div{padding:0}
+// .recommended-items .product-card__buy{
+// display:flex!important;
+// position:relative!important;
+// flex-direction: column!important;
+// transform: unset;
+// width: auto;
+// left: auto;
+// right: auto;
+// }
+// .recommended-items .product-card__buy .btn-primary div{padding:0}
 #alpix .product-card .product-card__buy.fade .btn{margin:0;min-width:unset;width:100%;padding-left:4px;padding-right:4px;}
 
 
@@ -1793,4 +1801,12 @@ height:136px;
 
 .brands-carousel img{
     object-fit: contain;
+}
+
+.product__sticky .prices .prices__value{color:#602f16}
+
+.product-card--small .product-card__name{
+    padding-top: var(--spacer-1);
+    --max-lines: 3;
+    height: calc(var(--line-height-sm)*var(--font-size-sm)*var(--max-lines))!important;
 }
