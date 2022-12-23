@@ -204,9 +204,9 @@
 }
 #alpix .product-card .product-card__buy.fade .btn,
 #alpix .offers-timer a{
-    background: var(--ab_bg_color);
-    border-color: var(--ab_border_color);
-    color:var(--ab_text_color);
+    background: var(--ab_bg_color)!important;
+    border-color: var(--ab_border_color)!important;
+    color:var(--ab_text_color)!important;
 }
 #alpix .product-card__buy .fas{display:none!important}
 #alpix .product-card__link_direct{
