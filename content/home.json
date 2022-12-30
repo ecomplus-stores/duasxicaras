@@ -6,20 +6,20 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/01.webp",
-          "mobile_img": "/img/uploads/01.webp",
+          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
+          "mobile_img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
           "link": "https://www.duasxicaras.com.br/hario",
           "alt": "Linha Hario V60"
         },
         {
-          "img": "/img/uploads/02.webp",
-          "mobile_img": "/img/uploads/02.webp",
+          "img": "/img/uploads/banner-verao.jpg",
+          "mobile_img": "/img/uploads/banner-verao.jpg",
           "link": "https://www.duasxicaras.com.br/v60",
           "alt": "Kit V60"
         },
         {
-          "img": "/img/uploads/banner-antigo.jpg",
-          "mobile_img": "/img/uploads/03mobile.webp",
+          "img": "/img/uploads/banner-1-cor-3-vermelho.jpg",
+          "mobile_img": "/img/uploads/banner-1-cor-3-vermelho.jpg",
           "link": "https://www.duasxicaras.com.br/capsulas",
           "alt": "Cápsulas para Cafés e outras bebidas"
         }
