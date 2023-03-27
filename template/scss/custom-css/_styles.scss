@@ -1818,3 +1818,6 @@ height:136px;
     --max-lines: 3;
     height: calc(var(--line-height-sm)*var(--font-size-sm)*var(--max-lines))!important;
 }
+.shipping-calculator__option > small {
+    top: 0px !important;
+}
