@@ -157,7 +157,8 @@ export default {
       hasLoadError: false,
       paymentOptions: [],
       customizations: [],
-      kitItems: []
+      kitItems: [],
+      qntToBuy: 1
     }
   },
 
@@ -389,11 +390,7 @@ export default {
     changeQntUn (item, qntDiff, ev) {
       const { body } = this
       let input = ev.target.closest('.apx_quantity_selector').querySelector('input');
-      //console.log(input.querySelector('input').value = 3);
-      //console.log(input);
       let newQnt = parseInt(input.value) + parseInt(qntDiff);
-      // console.log(newQnt)
-      //console.log(newQnt)
       if (newQnt > 0) {
         if (body.min_quantity > newQnt) {
           newQnt = body.min_quantity
@@ -405,7 +402,12 @@ export default {
             newQnt = maxQnt
           }
         }   
+        let me = input
+        this.qntToBuy  = newQnt
         input.value = newQnt     
+        setTimeout(function(){
+          me = newQnt
+        },1000)
         this.$emit('set-quantity', {
           body,
           quantity: newQnt
@@ -541,6 +543,9 @@ export default {
   },
 
   created () {
+    // const presetQntToBuy = () => {
+    //   this.qntToBuy = this.body.min_quantity || 1
+    // }
     if (this.product) {
       this.body = this.product
       if (this.isSSR) {

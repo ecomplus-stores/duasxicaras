@@ -4,28 +4,28 @@ var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.
 $('body').addClass('loaded');
 if($('.page--home').length){
     //mosaico principal
-    if(isMobile){
+    // if(isMobile){
 
-    }else{
-        $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2) > .banner').appendTo('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(1)');
-        $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2)').remove();
-        $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(1)').toggleClass('col-lg-4 col-lg-auto');
-        $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2)').toggleClass('col-lg-4 col-lg-auto');
+    // }else{
+    //     $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2) > .banner').appendTo('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(1)');
+    //     $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2)').remove();
+    //     $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(1)').toggleClass('col-lg-4 col-lg-auto');
+    //     $('#alpix .page--home > .sections > .banners-grid:first-child .col-12:nth-child(2)').toggleClass('col-lg-4 col-lg-auto');
 
-    }
+    // }
     //blocos categorias
     $('#alpix .page--home > .sections > .banners-grid:not(:first-child) .col-12').attr('class','col-12 col-md-auto px-1 py-1');
     $('#alpix .page--home > .sections > .banners-grid:not(:first-child) .row').addClass('justify-content-center align-items-center mx-0');
 
 
 
-    $('#alpix .banners-grid').each(function(){
-        if($(this).find('.col-12').length == 3){
-            $(this).addClass('mosaico-footer');
-            let i = $('<div class="row align-items-bottom"><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(1) .banner'))+'</div><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(2) .banner'))+''+ getHTML($(this).find('.col-12:nth-child(3) .banner'))+'</div></div>');
-            $(this).find('.row').empty().append(i);
-        }
-    })
+    // $('#alpix .banners-grid').each(function(){
+    //     if($(this).find('.col-12').length == 3){
+    //         $(this).addClass('mosaico-footer');
+    //         let i = $('<div class="row align-items-bottom"><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(1) .banner'))+'</div><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(2) .banner'))+''+ getHTML($(this).find('.col-12:nth-child(3) .banner'))+'</div></div>');
+    //         $(this).find('.row').empty().append(i);
+    //     }
+    // })
 
     $('#alpix .page--home > .sections > .banners-grid:not(:first-child):not(.mosaico-footer) a').each(function(){
         let title = $(this).find('img').attr('alt');

@@ -201,7 +201,7 @@
               </slot>
             </div>
             <template v-else>
-              <div class="product__buy" ref="buy">
+              <div class="product__buy">
                 <div class="apx_quantity_selector">
                   <button type="button"
                   @click="ev => changeQntUn(body, -1,ev)"
@@ -213,14 +213,9 @@
                   <input type="tel" 
                     :min="body.min_quantity"
                     :max="body.quantity"
-                    :value="body.min_quantity ? body.min_quantity : 1"
                     :disabled="!isInStock"
                     :readonly="body.min_quantity === body.max_quantity"
-
-                    @change="ev => changeQntUn(body, null, ev)"
-                    @keyup.up="changeQntUn(body, 1,this)"
-                    @keyup.down="changeQntUn(body, -1, this)"
-
+                    v-model="qntToBuy"
                     name="form-control apx_quantity-selector__input"/>
                   
                   <button type="button"
@@ -417,23 +412,23 @@
               v-if="!isQuickview"
               name="shipping"
             >
-              <shipping-calculator
-                :shippedItems="[{
-                  ...body,
-                  product_id: body._id,
-                  quantity: body.min_quantity || 1
-                }]"
-              >
-                <template v-slot:free-from-value="{ amountSubtotal, freeFromValue }">
-                  <div class="product__free-shipping-from">
-                    {{ i19freeShippingFrom }}
-                    <strong>
-                      {{ Math.ceil(freeFromValue / amountSubtotal) }}
-                      {{ i19units }}
-                    </strong>
-                  </div>
-                </template>
-              </shipping-calculator>
+            <shipping-calculator
+            :shippedItems="isKit ? kitItems : [{
+              ...body,
+              product_id: body._id,
+              quantity: qntToBuy || body.min_quantity || 1
+            }]"
+          >
+            <template v-slot:free-from-value="{ amountSubtotal, freeFromValue }">
+              <div class="product__free-shipping-from">
+                {{ i19freeShippingFrom }}
+                <strong>
+                  {{ Math.ceil(freeFromValue / amountSubtotal) }}
+                  {{ i19units }}
+                </strong>
+              </div>
+            </template>
+          </shipping-calculator>
             </slot>
 
             <slot name="track-price">
