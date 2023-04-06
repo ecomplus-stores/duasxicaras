@@ -19,13 +19,13 @@ if($('.page--home').length){
 
 
 
-    // $('#alpix .banners-grid').each(function(){
-    //     if($(this).find('.col-12').length == 3){
-    //         $(this).addClass('mosaico-footer');
-    //         let i = $('<div class="row align-items-bottom"><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(1) .banner'))+'</div><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(2) .banner'))+''+ getHTML($(this).find('.col-12:nth-child(3) .banner'))+'</div></div>');
-    //         $(this).find('.row').empty().append(i);
-    //     }
-    // })
+    $('#alpix .banners-grid:not(:first-child)').each(function(){
+        if($(this).find('.col-12').length == 3){
+            $(this).addClass('mosaico-footer');
+            let i = $('<div class="row align-items-bottom"><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(1) .banner'))+'</div><div class="col-12 col-md-6">'+ getHTML($(this).find('.col-12:nth-child(2) .banner'))+''+ getHTML($(this).find('.col-12:nth-child(3) .banner'))+'</div></div>');
+            $(this).find('.row').empty().append(i);
+        }
+    })
 
     $('#alpix .page--home > .sections > .banners-grid:not(:first-child):not(.mosaico-footer) a').each(function(){
         let title = $(this).find('img').attr('alt');

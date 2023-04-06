@@ -1821,16 +1821,16 @@ height:136px;
 .shipping-calculator__option > small {
     top: 0px !important;
 }
-.banners-grid .floating-title{display:none}
+// .banners-grid .floating-title{display:none}
 @media(min-width:990px){
-    #alpix .page--home > .sections > .banners-grid > .container > .row{
+    #alpix .page--home > .sections > .banners-grid:first-child > .container > .row{
         display:grid;
         grid-template-areas: "bn1 bn3"
         "bn2 bn3";
         grid-template-columns:50% 50%;
     }
-    #alpix .page--home > .sections > .banners-grid > .container > .row > div{max-width:unset;}
-    #alpix .page--home > .sections > .banners-grid > .container > .row > div:nth-child(1){grid-area:bn1}
-    #alpix .page--home > .sections > .banners-grid > .container > .row > div:nth-child(2){grid-area:bn2}
-    #alpix .page--home > .sections > .banners-grid > .container > .row > div:nth-child(3){grid-area:bn3}
+    #alpix .page--home > .sections > .banners-grid:first-child > .container > .row > div{max-width:unset;}
+    #alpix .page--home > .sections > .banners-grid:first-child > .container > .row > div:nth-child(1){grid-area:bn1}
+    #alpix .page--home > .sections > .banners-grid:first-child > .container > .row > div:nth-child(2){grid-area:bn2}
+    #alpix .page--home > .sections > .banners-grid:first-child > .container > .row > div:nth-child(3){grid-area:bn3}
 }

@@ -63,7 +63,12 @@
     {
       "type": "banners-grid",
       "banners": [
-        
+        {
+          "img": "/img/uploads/mb_1.png",
+          "mobile_img": "/img/uploads/mb_mobile.png",
+          "link": "https://www.duasxicaras.com.br/kits-e-presentes",
+          "alt": "Kits e Presentes para quem ama café!"
+        },
         {
           "img": "/img/uploads/02_new.png",
           "link": "https://www.duasxicaras.com.br/xaropes-soda-italiana",
@@ -73,13 +78,8 @@
           "img": "/img/uploads/03_new.png",
           "link": "https://www.duasxicaras.com.br/cha",
           "alt": "Chás e ervas para infusão"
-        },
-        {
-          "img": "/img/uploads/mb_1.png",
-          "mobile_img": "/img/uploads/mb_mobile.png",
-          "link": "https://www.duasxicaras.com.br/kits-e-presentes",
-          "alt": "Kits e Presentes para quem ama café!"
         }
+        
       ]
     },
     {
