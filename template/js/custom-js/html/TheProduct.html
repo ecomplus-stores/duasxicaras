@@ -413,7 +413,7 @@
               name="shipping"
             >
             <shipping-calculator
-            :shippedItems="isKit ? kitItems : [{
+            :shippedItems="isKit ? kitItemsCalc.slice(0, lowQuantityToWarn) : [{
               ...body,
               product_id: body._id,
               quantity: qntToBuy || body.min_quantity || 1

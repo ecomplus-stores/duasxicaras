@@ -158,6 +158,7 @@ export default {
       paymentOptions: [],
       customizations: [],
       kitItems: [],
+      kitItemsCalc: [],
       qntToBuy: 1
     }
   },
@@ -446,6 +447,15 @@ export default {
       } else {
         this.buy()
       }
+    },
+
+    fetchProductId (_id) {
+      return ecomClient.store({
+        url: `/products/${_id}.json`,
+        axiosConfig: {
+          timeout: 30000
+        }
+      })
     }
   },
 
@@ -505,23 +515,32 @@ export default {
       handler (isKit) {
         if (isKit && !this.kitItems.length) {
           const kitComposition = this.body.kit_composition
-          const ecomSearch = new EcomSearch()
-          ecomSearch
-            .setPageSize(kitComposition.length)
-            .setProductIds(kitComposition.map(({ _id }) => _id))
-            .fetch(true)
-            .then(() => {
-              ecomSearch.getItems().forEach(product => {
+          const kitIds = kitComposition.map(({ _id }) => _id)
+          const promises = []
+          try {
+            for (let index = 0; index < kitIds.length; index++) {
+              const element = kitIds[index]; 
+              promises.push(this.fetchProductId(element))
+            }
+            Promise.all(promises).then(results => {
+              const searchedProducts = results.map(({ data }) => data)
+              searchedProducts.forEach(product => {
                 const { quantity } = kitComposition.find(({ _id }) => _id === product._id)
                 const addKitItem = variationId => {
                   const item = ecomCart.parseProduct(product, variationId, quantity)
+                  const item1 = ecomCart.parseProduct(product, variationId, quantity)
                   if (quantity) {
                     item.min_quantity = item.max_quantity = quantity
                   } else {
                     item.quantity = 0
+                    item1.quantity = 1
                   }
                   this.kitItems.push({
                     ...item,
+                    _id: genRandomObjectId()
+                  })
+                  this.kitItemsCalc.push({
+                    ...item1,
                     _id: genRandomObjectId()
                   })
                 }
@@ -535,7 +554,9 @@ export default {
                 }
               })
             })
-            .catch(console.error)
+          } catch (error) {
+            
+          }
         }
       },
       immediate: true
