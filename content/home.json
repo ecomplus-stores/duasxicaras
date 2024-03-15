@@ -3,6 +3,12 @@
   "meta_description": "Adquira tudo que você precisa para uma experiência de degustação única sem sair de casa, desde cafeteiras até suprimentos. Venha para a Duas Xícaras!",
   "sections": [
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-dia-do-consumidor-v2.jpg",
+      "link": "https://www.duasxicaras.com.br/semana-do-consumidor",
+      "mobile_img": "/img/uploads/banner-dia-do-consumidor-v2-mobile.jpg"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -45,20 +51,20 @@
       "page": 1
     },
     {
-      "type": "custom-html",
-      "html": "<h4 class=\"products-carousel__title\">\n<span>Confira os posts mais recentes de  <b>nosso blog</b></span>\n</h4>"
-    },
-    {
-      "type": "blog",
-      "enabled": true
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
       "page": 1,
       "sort": "news",
       "title": "Novidades | Quentinhas"
+    },
+    {
+      "type": "custom-html",
+      "html": "<h4 class=\"products-carousel__title\">\n<span>Confira os posts mais recentes de  <b>nosso blog</b></span>\n</h4>"
+    },
+    {
+      "type": "blog",
+      "enabled": true
     },
     {
       "type": "banners-grid",
@@ -80,13 +86,6 @@
           "alt": "Chás e ervas para infusão"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "title": "Promoções | imperdíveis"
     },
     {
       "type": "banners-grid",
@@ -127,6 +126,13 @@
           "link": "/outras-bebidas"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "title": "Promoções | imperdíveis"
     },
     {
       "type": "custom-html",
