@@ -12,7 +12,8 @@
           "end": "",
           "img": "/img/uploads/banner-dia-do-consumidor-v2.jpg",
           "mobile_img": "/img/uploads/banner-dia-do-consumidor-v2-mobile.jpg",
-          "link": "https://www.duasxicaras.com.br/semana-do-consumidor"
+          "link": "https://www.duasxicaras.com.br/semana-do-consumidor",
+          "alt": "duaxconsumidor"
         }
       ]
     },
