@@ -3,6 +3,20 @@
   "meta_description": "Adquira tudo que você precisa para uma experiência de degustação única sem sair de casa, desde cafeteiras até suprimentos. Venha para a Duas Xícaras!",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 0,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-dia-do-consumidor-v2.jpg",
+          "mobile_img": "/img/uploads/banner-dia-do-consumidor-v2-mobile.jpg",
+          "link": "https://www.duasxicaras.com.br/semana-do-consumidor"
+        }
+      ]
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
