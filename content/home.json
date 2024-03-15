@@ -17,29 +17,6 @@
       ]
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
-          "mobile_img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
-          "link": "https://www.duasxicaras.com.br/search?term=harry",
-          "alt": "Linha Hario V60"
-        },
-        {
-          "img": "/img/uploads/banner-outono-jpeg.jpg",
-          "mobile_img": "/img/uploads/banner-outono-jpeg.jpg",
-          "link": "https://www.duasxicaras.com.br/cafes?v=v2",
-          "alt": "Cafes"
-        },
-        {
-          "img": "/img/uploads/banner-metodos-duas.jpg",
-          "mobile_img": "/img/uploads/banner-metodos-duas.jpg",
-          "link": "https://www.duasxicaras.com.br/ofertas",
-          "alt": "Cápsulas para Cafés e outras bebidas"
-        }
-      ]
-    },
-    {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
@@ -141,6 +118,29 @@
       "limit": 12,
       "page": 1,
       "title": "Promoções | imperdíveis"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
+          "mobile_img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
+          "link": "https://www.duasxicaras.com.br/search?term=harry",
+          "alt": "Linha Hario V60"
+        },
+        {
+          "img": "/img/uploads/banner-outono-jpeg.jpg",
+          "mobile_img": "/img/uploads/banner-outono-jpeg.jpg",
+          "link": "https://www.duasxicaras.com.br/cafes?v=v2",
+          "alt": "Cafes"
+        },
+        {
+          "img": "/img/uploads/banner-metodos-duas.jpg",
+          "mobile_img": "/img/uploads/banner-metodos-duas.jpg",
+          "link": "https://www.duasxicaras.com.br/ofertas",
+          "alt": "Cápsulas para Cafés e outras bebidas"
+        }
+      ]
     },
     {
       "type": "custom-html",
