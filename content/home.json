@@ -18,6 +18,10 @@
       ]
     },
     {
+      "type": "custom-html",
+      "html": "<br>"
+    },
+    {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
