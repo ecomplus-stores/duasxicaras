@@ -8,12 +8,11 @@
       "full_width": true,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-dia-do-consumidor-v2.jpg",
-          "mobile_img": "/img/uploads/banner-dia-do-consumidor-v2-mobile.jpg",
-          "link": "https://www.duasxicaras.com.br/semana-do-consumidor",
-          "alt": "duaxconsumidor"
+          "start": "2024-03-20T14:54:35.232Z",
+          "end": "2024-04-01T03:00:00.000Z",
+          "img": "/img/uploads/banner-mesdo-consumidor.jpg",
+          "mobile_img": "/img/uploads/banner-mes-do-consumido.jpg",
+          "link": "https://www.duasxicaras.com.br/semana-do-consumidor"
         }
       ]
     },
