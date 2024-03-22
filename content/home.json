@@ -131,29 +131,6 @@
       "title": "Promoções | imperdíveis"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
-          "mobile_img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg",
-          "link": "https://www.duasxicaras.com.br/search?term=harry",
-          "alt": "Linha Hario V60"
-        },
-        {
-          "img": "/img/uploads/banner-outono-jpeg.jpg",
-          "mobile_img": "/img/uploads/banner-outono-jpeg.jpg",
-          "link": "https://www.duasxicaras.com.br/cafes?v=v2",
-          "alt": "Cafes"
-        },
-        {
-          "img": "/img/uploads/banner-metodos-duas.jpg",
-          "mobile_img": "/img/uploads/banner-metodos-duas.jpg",
-          "link": "https://www.duasxicaras.com.br/ofertas",
-          "alt": "Cápsulas para Cafés e outras bebidas"
-        }
-      ]
-    },
-    {
       "type": "custom-html",
       "html": "<div class=\"newsletter\">\n  <div class=\"row\">\n    <div class=\"col-12\">\n      <h4 class=\"products-carousel__title\">\n        <span>Assine nossa <b>Newsletter</b></span>\n        </h4>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-12 col-md-4 d-none d-md-block\">\n      <img class=\"lozad\" data-src=\"/img/newsletter_cup.png\">\n    </div>\n    <div class=\"col-12 col-md-3\">\n      <p>Assine nossa newsletter e fique por dentro de todas as novidades e promoções</p>\n    </div>\n    <div class=\"col-12 col-md-5\">\n      <!-- Begin Mailchimp Signup Form -->      \n      <form action=\"https://duasxicaras.us7.list-manage.com/subscribe/post?u=1584b8f40a25793d74873f091&amp;id=8fa5dd8b66\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mce-responses\" class=\"clear\">\n          <div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n          <div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n        </div>   \n        <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_1584b8f40a25793d74873f091_8fa5dd8b66\" tabindex=\"-1\" value=\"\"></div>\n        <div class=\"row\">\n          <div class=\"col\">\n            <input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" placeholder=\"Digite seu e-mail aqui\">\n          </div>\n          <div class=\"col-auto\">\n            <button type=\"submit\" class=\"btn btn-default\" name=\"subscribe\" id=\"mc-embedded-subscribe\">Cadastrar</button>\n          </div>\n        </div>\n      </form>\n      <!--End mc_embed_signup-->\n    </div>\n  </div>\n</div>\n"
     }
