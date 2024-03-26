@@ -20,6 +20,10 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/duas-xicaras-comentarios.png"
+    },
+    {
       "type": "related-products",
       "title": "Este produto vai | muito bem com"
     },
