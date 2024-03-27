@@ -16,6 +16,10 @@
       "enabled": true
     },
     {
+      "type": "product-specifications",
+      "enabled": true
+    },
+    {
       "type": "banner-slider",
       "autoplay": 0,
       "full_width": false,
@@ -26,10 +30,6 @@
           "img": "/img/uploads/duas-xicaras-comentarios.png"
         }
       ]
-    },
-    {
-      "type": "product-specifications",
-      "enabled": true
     },
     {
       "type": "related-products",
