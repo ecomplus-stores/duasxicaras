@@ -20,12 +20,24 @@
       "enabled": true
     },
     {
+      "type": "banner-slider",
+      "autoplay": 0,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "2024-03-26T12:32:06.787Z",
+          "end": "2030-12-31T03:00:00.000Z",
+          "img": "/img/uploads/Duas-Xicaras-Comentarios (1).png"
+        }
+      ]
+    },
+    {
       "type": "related-products",
       "title": "Este produto vai | muito bem com"
     },
     {
       "type": "recommended-products",
-      "title": "Quem comprou este produto | também comprou:"
+      "title": "Quem comprou este produto | também comprou :"
     }
   ]
 }
