@@ -1,19 +1,12 @@
 {
   "meta_title": "Duas Xícaras: adquira cafés, cafeteiras, moedores e mais!",
-  "meta_description": "Adquira tudo que você precisa para uma experiência de degustação unica sem sair de casa, desde cafeteiras até suprimentos. Venha para a Duas Xícaras!",
+  "meta_description": "Adquira tudo que você precisa para uma experiência de degustação única sem sair de casa, desde cafeteiras até suprimentos. Venha para a Duas Xícaras!",
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 0,
+      "autoplay": 10000,
       "full_width": true,
       "slides": [
-        {
-          "start": "2024-04-19T22:50:21.076Z",
-          "end": "2024-05-01T03:00:00.000Z",
-          "img": "/img/uploads/banner-um-brinde-a-voce-_1_.webp",
-          "link": "https://www.duasxicaras.com.br/search?term=",
-          "mobile_img": "/img/uploads/banner-brinde-a-voce-mobile-ver-_1_.webp"
-        },
         {
           "start": "2024-04-24T17:12:43.621Z",
           "end": "",
