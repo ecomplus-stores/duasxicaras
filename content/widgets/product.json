@@ -3,12 +3,12 @@
   "active": true,
   "desktopOnly": false,
   "options": {
-    "buyText": "",
+    "buyText": "SOB CONSULTA",
     "buy": "",
     "strHasQuantitySelector": "_",
     "strHasPromotionTimer": "true",
     "lowQuantityToWarn": 5,
     "maxVariationOptionsBtns": 6,
-    "quoteInfo": ""
+    "quoteInfo": "16991314918"
   }
 }
